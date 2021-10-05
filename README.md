@@ -1,7 +1,7 @@
 # Graine de Food
 **_E-commerce website built in 4 weeks by an Agile team of 4 fullstack Javascript developers, all trained at Ecole O'Clock._**
 
-This project was showcased on YouTube on May 4, 2021. The video is in French but you can see our MVP in action. **Click on the below image to watch the presentation** (starts at 41:11 and lasts about 15 minutes):
+I presented the project with our Project Owner on YouTube on May 4, 2021. The video is in French but you can see our MVP in action. **Click on the below image to watch the presentation** (starts at 41:11 and lasts about 15 minutes):
 
 [![Homepage Screenshot](screenshots/homepage.png)](http://www.youtube.com/watch?feature=player_embedded&v=fV3c4FJqlBM?t=2471)
 
@@ -18,6 +18,7 @@ Graine de Food was built with the following technologies:
 * Layout: Semantic UI customized with SASS
 * API: Node / Express and Sequelize (MVC design pattern)
 * Database: PostgreSQL
+* Package to export database data into CSV format: export-from-json (yarn)
 * Payment system: Stripe
 * API deployed on AWS
 
@@ -25,11 +26,15 @@ Graine de Food was built with the following technologies:
 
 ## Features
 
-* Minimalist and responsive design
-* Presentation of concept and service
+* Minimalist and responsive design 
 * Creation, authentication and management of customer accounts (CRUD)
 * Online order and payment
-* Admin-only pages to manage promo codes (CRUD) and to export the list of paid orders in CSV
+
+### My personal contribution
+Integration of the Homepage and Concept Page, both in responsive design
+
+### My contribution in teams of two
+Admin-only pages to manage promo codes (CRUD) and to export the list of paid orders in CSV
 
 ![Admin-Orders Screenshot](screenshots/admin-orders.png "Graine de Food - Admin-only List of Orders Screenshot")
 
